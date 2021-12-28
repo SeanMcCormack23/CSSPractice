@@ -1,0 +1,41 @@
+body{
+  background: rgb(224, 8, 8);
+  background: linear-gradient(90deg,rgb(12, 238, 4)0%, rgba(224, 8, 8)35%, rgb(224, 220, 8) 100%);
+}
+#b{
+  background-color: rgb(0,0, 0 );
+  width: 800px;
+}
+#a{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px rgb(252, 248, 6);
+  font-size: 50px;
+  font-variant: small-caps;
+}
+h4{
+  text-shadow: 2px 2px 5px blue;
+  text-align: center;
+  text-decoration: underline;
+  font-size: large;
+}
+div {
+  height: 300px;
+  width: 250px;
+  margin: 90px 0 20px 30px;
+  border: 10px solid blue;
+  border-radius: 5%;
+  padding: 30px;
+  background-color: antiquewhite;
+  text-align: justify;
+}
+div#box{
+  height: 40px;
+  width: 80px;
+  border: 8px inset red;
+  border-radius: inherit;
+  margin: 50px 0 0 10px;
+  background-color:aquamarine;
+
+  outline: 10px solid lightblue;
+  outline-offset: 5px;
+}
