@@ -1,0 +1,42 @@
+body{
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+div.right{
+  position: absolute;
+  right: 0;
+  padding: 30px 0;
+  border: 2px solid lime;
+}
+
+div.left{
+  float:left;
+  border: 2px solid darkblue;
+  padding: 30px 0;
+
+}
+div.center{
+  padding: 40px;
+  width: 40%;
+  margin: auto;
+  border: 3px dashed floralwhite;
+}
+div.footer{
+  position: static;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+  padding: 60px;
+  border: 3px solid green;
+  display: block;
+}
+#image{
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+#p{
+  text-align: center;
+}
