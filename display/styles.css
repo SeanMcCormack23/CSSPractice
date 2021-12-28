@@ -1,0 +1,47 @@
+body {
+  background-color: beige;
+  font: 34px/1em Arial, Helvetica, sans-serif;
+}
+#demo1{
+  border:3px solid green;
+}
+p{
+  border:1px solid;
+}
+span{
+  border: 2px solid yellow;
+}
+
+.a{
+  border:2px solid red;
+  display:none;
+}
+.b{
+  border:2px solid red;
+  border-radius: 5%;
+  background-color: red;
+
+  /* display: inline; */
+  /* display:hidden; */
+}
+#wrap{
+  height: 600px;
+  width: 600px;
+  border: 1px solid;
+  position: relative;
+}
+.box{
+  height:150px;
+  width:150px;
+  border: 1px solid;
+  position: absolute;
+}
+#boxLeft{
+  bottom: 0;
+  left: 15px;
+}
+#boxRight{
+  top: 0px;
+  right: 0px;
+  border: 5px solid red;
+}
