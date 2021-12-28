@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  font: 34px 'Courier New', Courier, monospace;
+}
+h2{
+  clear:left;
+}
+.imgContainer{
+  float:left;
+  width: 33.3%;
+  padding: 5px;
+}
+.size{
+  height: 100px;
+  width: 25%;
+  text-align: center;
+}
+#box1{
+  float: left;
+  background-color: rgb(34, 32, 32);
+}
+#box2{
+  float: left;
+  background-color: grey;
+}
+#box3{
+  float: left;
+  background-color: rgb(201, 193, 193);
+}
+#box4{
+  float: left;
+  background-color: green;
+}
+#box5{
+  clear: left;
+  background-color: darkblue;
+  margin-top: 20px;
+}
+.nav{
+  height: 70px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+#info{
+  background-color: blueviolet;
+}
+#home{
+  background-color: aquamarine;
+}
+#fingerprint {
+  background-color: firebrick;
+}
+#account{
+  background-color: darkgoldenrod;
+}
+#favorite_border{
+  background-color: darkkhaki;
+}
+#print{
+  visibility: hidden;
+}
+.nav:hover{
+  height: 130px;
+  width: 150px;
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: azure;
+}
+li {
+  float: right;
+}
+li a{
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+  width: 300px;
+}
+li a:hover{
+  background-color: green;
+}
+
+
+
+
+

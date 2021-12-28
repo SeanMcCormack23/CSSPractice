@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">         
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float and Clear</title>
+</head>
+<body>
+  <h3>Float and Clear Demo</h3>
+  <p>Without clear just using float</p>
+
+  <div id="demo1">
+    <img id="imgA" src="pn.png" alt="err">
+    <div id="test">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis consectetur laborum deleniti repellendus, quam numquam voluptate vitae do
+    </div>
+    
+    See how the image is larger than the container, we use the clearfix hack to fix this!
+    
+  </div>
+  <h2>Clearfix Hack</h2>
+
+  <div class="clearfix" id="demo2">
+    <img id="imgB" src="pn.png" alt="err">
+    <div id="test">
+      <p>We add clearfix::after { content:""; clear: both; display: table; } <br> Notice how the border adjusts to fix the image!</p>
+
+    </div>
+
+  
+
+</body>
+</html>
