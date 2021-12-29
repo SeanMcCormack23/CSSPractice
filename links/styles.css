@@ -1,0 +1,47 @@
+body{
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a.one:link {
+  color: blue;
+}
+a.one:visited{
+background:white;
+}
+a.one:hover{
+  color: slateblue;
+  background-color: aqua;
+}
+
+a.two:link{
+  background-color: yellow;
+}
+a.two:visited{
+  background-color: green;
+}
+a.two:hover{
+  font-variant: small-caps;
+  font-size: 150%;
+
+  /* display: none; */
+}
+a.three:link{
+  background-color: none;
+}
+a.three:hover{
+  background-color: red;
+}
+
+a.four:link, a.four:visited{
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 20px 10px;
+  background-color: purple;
+  text-align: center;
+  color: white;
+}
+a.four:hover{
+  background-color: red;
+  font: bold 22px 'Imperial Script', cursive;
+  text-decoration: none;
+}
