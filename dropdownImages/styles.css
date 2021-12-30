@@ -1,0 +1,19 @@
+body{
+  background: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropDown{
+  display: inline-block;
+  position: relative;
+}
+
+.dropedContent{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  margin-top: -10px;
+
+}
+.dropDown:hover .dropedContent{
+  display: block;
+}
