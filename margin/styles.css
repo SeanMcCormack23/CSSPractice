@@ -1,0 +1,42 @@
+body{
+  font-family: 'Corinthia', cursive;
+  font-size: 30px;
+  background-color: grey;
+}
+h1{
+  font-size: 84px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white, 0 0 15px orange, 0 0 10px pink;
+}
+div{
+  border: 5px inset red;
+  margin: auto;
+  width: 400px;
+}
+div#fancy{
+  border: none;
+  outline: 10px double lightcoral;
+  outline-offset: 2px;
+  margin: auto;
+  width: 400px;
+}
+
+#div2{
+  border: 1px solid red;
+  margin-left: 150px;
+}
+#div3{
+  border: 1px solid red;
+  margin: 20px 150px;
+}
+p.ex1{
+  margin-left: inherit;
+  font-family: 'Bakbak One', cursive;;
+  padding-right: 10px;
+  margin-right: 50px;
+  border: 1px solid black;
+}
+p.ex2{
+  margin: 50px 40px 10px 10px;
+ 
+}
