@@ -1,0 +1,42 @@
+body{
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* label{
+  font-size: 2em;
+} */
+input[type="text"]{
+  
+  padding: 15px;
+  margin: 20px 0;
+  font-size: 2em;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[name*="lName"]{
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: white;
+  color: black;
+  
+}
+input[name="focus"]:hover{
+  background-color: lightblue;
+  font-size: 150%;
+}
+input[name="focus2"]:hover {
+  border: 10px solid lightgreen;
+  outline: lightblue solid 20px;
+  outline-offset: 3px;
+}
+input[name="icon"]{
+  border: none; 
+  border-bottom: 2px solid;
+  background-image: url('search.png');
+  background-size: auto;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  color: black;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Forms3</title>
+</head>
+
+<body>
+  <h2>A combination of forms styled like an info page</h2>
+
+  <div class="container">
+    <div class="row">
+      <!-- there will be two divs in each row -->
+      <form action="#">
+        <!-- the action attribute tells the page where to send the forms data, we will leave this empty for now -->
+        <div class="col-25">
+          <label for="fName">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="fName" placeholder="First name...">
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lName">Second Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="lName" placeholder="Second name...">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Nationality</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Irish">Irish</option>
+          <option value="British">British</option>
+          <option value="Austrailia">Austrailian</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="bio">Bio</label>
+      </div>
+      <div class="col-75">
+        <textarea id="bio" name="bio" placeholder="Say something about yourself here..."></textarea>
+      </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+
+    </form>
+  </div>
+  </div>
+  <p>Resize the window to see the responsive effect, once below 600px wide.</p>
+</body>
+
+</html>
