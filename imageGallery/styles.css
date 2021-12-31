@@ -1,0 +1,17 @@
+body{
+  background: blanchedalmond;
+}
+div.gallery{
+  float: left;
+  margin: 5px;
+  width: 180px;
+  border: 1px solid;
+}
+div.gallery img {
+  height: auto;
+  width: 100%;
+}
+.description {
+  text-align: center;
+  font-weight: bold;
+}
