@@ -1,2 +1,2 @@
 # CSSPractice
-Going through the full W3 Schools CSS course
+Gaining a better understanding of HTML & CSS
