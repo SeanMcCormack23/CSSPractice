@@ -1,0 +1,45 @@
+body{
+  background-color: blanchedalmond;
+  font: 22px Arial, Helvetica, sans-serif;
+}
+.size{
+  display: block;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+#wrap{
+  position: relative;
+}
+#container{
+  position: absolute;
+}
+.textArea{
+  border: none;
+  padding: 10px;
+}
+#topRight{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#centre{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: white;
+}
+#bottomLeft{
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+#middleRight{
+  position: absolute;
+  border: 3px solid darkred;
+  top:50%;
+  right:0;
+  font: 34px 'Times New Roman', serif;
+  color:darkred;
+}

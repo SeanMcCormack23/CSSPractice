@@ -1,0 +1,50 @@
+body{
+  background-color: blanchedalmond;
+  font-family: 'Courier New', Courier, monospace;
+}
+#wrap{
+  height: 600px;
+  width: 1200px;
+  border: 1px solid;
+}
+.box{
+  margin: 50px;
+  height: 150px;
+  width: 200px;
+  border: 1px solid;
+  
+}
+#horizontalScroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  outline: 5px lawngreen solid;
+  outline-offset: 2px;
+  float: right;
+  
+}
+#verticalScroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  outline: 5px lightcoral solid;
+  outline-offset: 2px;
+  float: right;
+}
+#autoScroll{
+  /* top:0;
+  right:0; */
+  /* position: absolute; */
+  overflow: auto;
+  text-align: justify;
+  outline: 5px lightblue solid;
+  outline-offset: 2px;
+  float: left;
+}
+#float{
+  text-align: right;
+  margin-right: 50px;
+  margin-top: -100px;
+  font-size: larger;
+}
+#clear{
+  clear:left;
+}
