@@ -1,0 +1,27 @@
+body{
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.wrap{
+  display: inline-block;
+  border: 2px solid;
+  padding: 20px;
+  
+}
+a:link {
+  background-color: darkblue;
+}
+a:hover, a:active {
+  background-color: aliceblue;
+}
+a:visited {
+  background-color: none;
+  color: yellow;
+}
+input:in-range {
+  border: 2px solid green;
+}
+div {
+  border: 2px solid black;
+  display: block;
+}
