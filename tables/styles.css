@@ -1,0 +1,51 @@
+body{
+  background-color: blanchedalmond;
+  font-size: 1em;
+}
+div#wrap{
+  padding:50px;
+  margin-bottom: 50px;
+  /* overflow-x: auto; */
+}
+#info th, #info tr, #info td { 
+  border: 1px solid;
+  border-collapse: collapse;
+}
+#info {
+ width: 100%;
+}
+#info th{
+  padding: 8px;
+  text-decoration: underline;
+}
+#info tr:hover{
+  background-color: grey;
+}
+#info td {
+  padding: 5px;
+  text-align: center;
+}
+
+
+#niceTable {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%; 
+}
+#niceTable th {
+  color: black;
+  padding: 10px;
+  text-align: left;
+  background-color: blanchedalmond;
+}
+
+#niceTable th, #niceTable td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+#niceTable tr:hover{
+  color: white;
+  background-color: grey;
+}
+
