@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: lightblue;
+  padding: 30px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  text-align: center;
+}
+h2 {
+  text-shadow: 1px 1px 5px lightcoral;
+  text-decoration: underline;
+  color: white;
+}
+.navbar{
+  background-color: lightcoral;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 20px 16px;
+  margin: 6px 15px;
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+a:hover{
+  background-color: rgba(236, 113, 113, 0.8);
+}
+.column, .column2, .column3{
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  margin-top: 6px;
+  color: black;
+}
+.column2{
+  width: 25%;
+
+}
+.column3{
+  width: 50%;
+}
+.column:hover{
+  border: 3px solid lightblue;
+  border-radius: 5px;
+
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer{
+  background-color: lightcoral;
+  padding: 50px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+h3{
+  text-shadow: 1px 1px 5px white;
+}
+button{
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: white;
+}
+@media screen and (max-width: 600px){
+  .column{
+    width: 100%;
+  }
+}
