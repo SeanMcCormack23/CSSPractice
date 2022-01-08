@@ -1,0 +1,37 @@
+* { 
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+.containerA, .containerB {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  padding: 10px;
+  height: 300px;
+  margin: 10px;
+  /* margin: auto to perfectly align items before editing margin  */
+}
+.containerA {
+  flex-direction: column;
+  justify-content: space-between;
+  /* first element on each line is in 1st row/colom, last element in each line is in the last row/coloum */
+  align-items: flex-end;
+  align-content: center;
+}
+.containerB {
+  flex-flow: row wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-end;
+}
+.box {
+  border: 1px solid;
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  
+}
