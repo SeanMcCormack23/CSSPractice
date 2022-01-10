@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  font-size: 3em;
+  overflow: scroll;
+}
+.container {
+  display: grid;
+  /* creating the cols */
+  grid-template-columns: repeat(3, 300px [col-start]);
+  /* creating the rows */
+  grid-template-rows: repeat(3, 300px [col-start]);
+  /* setting the gap between cells */
+  /* first value is row, 2nd is col */
+  gap: 10px 20px;
+  /* centering the grid within the container */
+  justify-content: center;
+  align-content: stretch;
+  
+}
+.item {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+}
